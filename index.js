@@ -26,7 +26,7 @@ var Model = mongoose.model('model', schema, 'form-data');
 //app variables
 
 var app = express();
-var PORT = process.env.port || '8000';
+var PORT = process.env.port || '3000';
 
 //app configuration
 
