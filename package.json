@@ -1,0 +1,28 @@
+{
+  "name": "wweb-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-dot/wweb-form.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/web-dot/wweb-form/issues"
+  },
+  "homepage": "https://github.com/web-dot/wweb-form#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "mongoose": "^5.11.8"
+  }
+}
