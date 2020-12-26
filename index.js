@@ -26,7 +26,7 @@ var Model = mongoose.model('model', schema, 'form-data');
 //app variables
 
 var app = express();
-var PORT = process.env.port || '3000';
+var port = process.env.PORT || '8000';
 
 //app configuration
 
@@ -59,6 +59,6 @@ app.post('/api', function(request, response){
 //   console.log(`Listeneing at http://localhost:${PORT}`)
 // });
 
-app.listen(PORT, function(){
-  console.log(`App is running on ${PORT}`)
+app.listen(port, function(){
+  console.log(`App is running on ${port}`)
 });
